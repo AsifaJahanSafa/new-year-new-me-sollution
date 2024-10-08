@@ -1,0 +1,59 @@
+/* Merriweather font */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+/* Inter font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding:0px;
+    margin:0px
+}
+.Merriweather-font{
+    font-family: "Merriweather", serif;
+}
+
+.Inter-font{
+    font-family: "Inter", sans-serif;
+}
+
+/* banner related style */
+.banner-container{
+    max-width:1320px;
+    color:white;
+    min-height: 620px;
+    border-radius:16px;
+    border:none;
+    margin:47px auto;
+    background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) ,url(../resources/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.banner-greetings{
+    color: #FFF;
+text-align: center;
+
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+.banner-title{
+    color: #FFF;
+
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: 95px; 
+
+}
