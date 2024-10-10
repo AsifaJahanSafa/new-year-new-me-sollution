@@ -474,3 +474,70 @@ height: 450px;
     gap:20px
 }
 
+.subscribe-section{
+    max-width: 1320px;
+    height: 616px;
+  
+    margin:0px auto;
+    margin-top:271px;
+    border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.subscribe-section h3{ 
+    color: #070211;
+text-align: center;
+
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+margin-bottom: 20px;}
+
+.subscribe-section p{ 
+    max-width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+text-align: center;
+margin-bottom: 20px;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+}
+
+.input-container{
+    display: flex;
+    flex-direction: row;
+}
+.username-input{
+    max-width:648px;
+    height: 72px;
+   padding: 10px 220px 10px 30px;
+   border-top-left-radius:35px ;
+   border-bottom-left-radius:35px ;
+   border:none;
+   font-size: 18px;
+}
+
+.submit{
+    border-radius: 0px 50px 50px 0px;
+background: #F00;
+width: 210px;
+height: 72px;
+color:white;
+border:none;
+font-size: 18px;
+    border-top-right-radius:35px ;
+   border-bottom-right-radius:35px ;
+   cursor: pointer;
+}
+
+.submit:hover{
+    background-color: rgb(91, 132, 229);
+    
+}
