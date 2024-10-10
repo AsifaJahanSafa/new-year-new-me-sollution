@@ -502,6 +502,7 @@ margin-bottom: 20px;}
 .subscribe-section p{ 
     max-width: 896px;
     color: rgba(7, 2, 17, 0.60);
+   
 text-align: center;
 margin-bottom: 20px;
 font-size: 20px;
@@ -540,4 +541,103 @@ font-size: 18px;
 .submit:hover{
     background-color: rgb(91, 132, 229);
     
+}
+
+/* footer */
+
+.footer{
+    background-color: #070211;
+}
+.footer-container{
+    max-width: 1320px;
+   
+  
+    margin:0px auto;
+    margin-top:271px;
+    margin-bottom: 30px;
+    padding-top:50px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.footer-left-con{
+    color: #FFF;
+font-family: Inter;
+max-width: 376px;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; /* 166.667% */
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    color:white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.contact-icon{
+    color:white;
+    margin-right: 10px;
+}
+
+.social-media-con{
+   border-top:1px solid rgba(255, 255, 255, 0.15);
+   ;
+   border-bottom:1px solid rgba(255, 255, 255, 0.15);
+   ;
+
+
+
+}
+
+.social-media{
+    display: flex;
+    flex-direction: row;
+    max-width: 200px;
+    margin:20px auto;
+   
+}
+.social{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0px auto;
+    
+}
+
+.facebook{
+    background-color: #1877F2;
+}
+
+.insta{
+    background-color:#F56040;
+    color:white
+}
+
+.twitter{
+    background-color: #1DA1F2
+    ;color:white
+}
+
+.lindin{
+    background-color:#0077B5
+    ;color:white;
+
+}
+
+.footer-bottom-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1320px;
+    margin:20px auto 0;
+    padding-bottom:40px;
+}
+
+.footer-bottom-container p{
+    color:white
 }
